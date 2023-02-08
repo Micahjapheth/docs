@@ -20,9 +20,7 @@ Attributes consist of a name and a value in the format `name="value"`:
 ```pseudo
 <tag name="value"></tag>
 ```
-
 So for example, the `<img>` image element has a mandatory `src` attribute that contains the image file path/URL:
-
 ```html
 <img src="codecademy_logo.png" />
 ```
@@ -35,10 +33,10 @@ HTML elements can have any number of attributes.
 The example below displays an image element with three attributes:
 
 ```html
-<img src="nyan_cat.gif" width="500" height="600" />
+<img src="nyan_cat.gif" width="300" height="400" />
 ```
 
-These declare its source, width, and height.
+These declares its source, width, and height.
 
 **Note:** Attribute names are not case-sensitive, but it is good practice to write HTML markup in lowercase.
 
@@ -49,7 +47,7 @@ Specific and unique `id` attributes can be assigned to elements to differentiate
 Valid `id` attribute values begin with a letter and must comprise only letters (`a`-`Z`), digits (`0`-`9`), hyphens (`-`), underscores (`_`), and periods (`.`).
 
 ```html
-<h1 id="th1s_is.v4lid">Hello World</h1>
+<h1 id="this-is-valid">Hello World</h1>
 ```
 
 **Note:** While `th1s_is.v4lid` is indeed a valid `id` value, it's best to use a consistent naming scheme such as camel case (`thisIsValid`), dash case (`this-is-valid`), or snake case (`this_is_valid`).
